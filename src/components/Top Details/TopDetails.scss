@@ -1,52 +1,53 @@
 @use "../../Styles/Partials/variables" as *;
-
-// Mixins
-@mixin flex($direction, $justify, $align) {
-  display: flex;
-  flex-direction: $direction;
-  justify-content: $justify;
-  align-items: $align;
-}
-
-@mixin tablet {
-  @media screen and (max-width: 768px) {
-    @content;
-  }
-}
-
-@mixin mobile {
-  @media screen and (max-width: 480px) {
-    @content;
-  }
-}
+@use "../../Styles/Partials/mixins" as *;
 
 .top-details {
-  @include flex(row, flex-start, flex-start);
-  padding: $padding-increment * 2;
-  gap: $padding-increment * 2;
-  background-color: $primary-background-color;
-  border-radius: 8px;
-  margin-bottom: $padding-increment * 2;
+  &__header {
+    display: flex;
+    justify-content: flex-end;
+    padding: $padding-increment;
 
-  @include tablet {
-    flex-direction: column;
+    @media (max-width: $tablet-breakpoint) {
+      display: none;
+    }
+  }
+
+  &__availability {
+    display: flex;
     align-items: center;
+    gap: $padding-increment;
+    margin-top: $padding-increment;
+  }
+
+  &__status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+  }
+
+  &__actions-desktop {
+    display: flex;
+    gap: $padding-increment;
+
+    @media (max-width: $tablet-breakpoint) {
+      display: none;
+    }
+  }
+
+  display: flex;
+  padding: $padding-increment;
+
+  @media (max-width: $tablet-breakpoint) {
+    flex-direction: column;
   }
 
   &__image-container {
     width: 25rem;
     height: 25rem;
-    border-radius: 1rem;
-    overflow: hidden;
 
-    @include tablet {
-      width: 20rem;
-      height: 20rem;
-    }
-
-    @include mobile {
-      width: 25rem;
-      height: 25rem;
+    @media (max-width: $tablet-breakpoint) {
+      width: 100%;
     }
   }
 
@@ -58,58 +59,47 @@
 
   &__info {
     flex-grow: 1;
-    width: 50%;
-  }
-
-  &__header {
-    @include flex(row, space-between, center);
-    margin-bottom: $padding-increment;
-    flex-wrap: wrap;
-    gap: $padding-increment;
+    
+    padding: $padding-increment;
   }
 
   &__name {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 0;
+    margin-top: $padding-increment;
   }
 
-  &__actions {
-    @include flex(row, flex-end, center);
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
     gap: $padding-increment;
+    font-size: 0.75rem;
+    margin-top: $padding-increment;
+  }
+
+  &__tag {
+    padding: $padding-increment;
+    background-color: $secondary-background-color;
+  }
+
+  &__actions-mobile {
+    display: none;
+
+    @media (max-width: $tablet-breakpoint) {
+      display: flex;
+      justify-content: space-around;
+      padding: $padding-increment;
+    }
   }
 
   &__action-btn {
     background: none;
     border: none;
     cursor: pointer;
-    padding: $padding-increment;
-    border-radius: 50%;
-    transition: background-color 0.2s ease;
-
-    &:hover {
-      background-color: rgba($secondary-background-color, 0.1);
-    }
 
     img {
       width: 24px;
       height: 24px;
-      display: block;
     }
-  }
-
-  &__specialty {
-    color: $primary-text-color;
-    margin-bottom: $padding-increment;
-  }
-
-  &__location {
-    color: $secondary-text-color;
-    margin-bottom: $padding-increment;
-  }
-
-  &__availability {
-    color: $secondary-text-color;
-    font-style: italic;
   }
 }
