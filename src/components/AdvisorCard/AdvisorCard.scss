@@ -54,8 +54,8 @@ p {
     @include flex(row, flex-start, center);
     background-color: $primary-background-color;
     width: fit-content;
-    padding: 0 $padding-increment * 2;
-    border-radius: 50px;
+    padding: 4px $padding-increment * 2;
+    border-radius: 10px;
     position: absolute;
     bottom: 15px;
     margin: 0 $padding-increment;
