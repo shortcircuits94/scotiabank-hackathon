@@ -19,73 +19,66 @@
     margin-top: $padding-increment;
   }
 
+  &__status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+  }
 
-.top-details {
-  @include flex(row, flex-start, flex-start);
-  padding: $padding-increment * 2;
-  gap: $padding-increment * 2;
-  background-color: $primary-background-color;
-  border-radius: 8px;
-  margin-bottom: $padding-increment * 2;
-  flex-grow: 1;
+  &__actions-desktop {
+    display: flex;
+    gap: $padding-increment;
 
-  @include tablet {
+    @media (max-width: $tablet-breakpoint) {
+      display: none;
+    }
+  }
+
+  display: flex;
+  padding: $padding-increment;
+
+  @media (max-width: $tablet-breakpoint) {
     flex-direction: column;
   }
 
   &__image-container {
-    width: 300px;
-    height: 300px;
-    border-radius: 1rem;
-    overflow: hidden;
+    width: 25rem;
+    height: 25rem;
 
-  }
-
-  &__image {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-  }
-
-  &__name-icon {
-    @include tablet {
-      height: 100%;
-      // width: 100%;
-      flex-grow: 1;
+    @media (max-width: $tablet-breakpoint) {
+      width: 100%;
     }
   }
 
-  &__info {
-    @include flex(row, space-between, center);
-    flex-grow: 1;
+  &__image {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
-  &__header {
-    @include flex(column, flex-start, flex-start);
-    margin-bottom: $padding-increment;
+  &__info {
+    flex-grow: 1;
+    padding: $padding-increment;
+  }
+
+  &__name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: $padding-increment;
+  }
+
+  &__tags {
+    display: flex;
     flex-wrap: wrap;
     gap: $padding-increment;
     font-size: 0.75rem;
     margin-top: $padding-increment;
   }
 
-  &__wrapper {
-    @include flex(row, center, center);
-  }
-
-  &__circle {
-    width: 10px;
-    height: 10px;
-    background-color: greenyellow;
-    border-radius: 50px;
-    margin-right: $padding-increment;
-  }
-
-  &__name {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0;
+  &__tag {
+    padding: $padding-increment;
+    background-color: $secondary-background-color;
   }
 
   &__actions-mobile {
@@ -107,24 +100,5 @@
       width: 24px;
       height: 24px;
     }
-
-    &__description {
-      margin: $padding-increment;
-    }
-  }
-
-  &__specialty {
-    color: $primary-text-color;
-    margin: $padding-increment * 2 0;
-  }
-
-  &__location {
-    color: $secondary-text-color;
-    margin-bottom: $padding-increment;
-  }
-
-  &__availability {
-    color: $secondary-text-color;
-    font-style: italic;
   }
 }
