@@ -1,3 +1,4 @@
+import "./App.scss";
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home.jsx";
@@ -9,7 +10,7 @@ import AdvisorCard from "./components/AdvisorCard/AdvisorCard.jsx";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <BrowserRouter>
         <Header />
         <Routes>
@@ -17,7 +18,7 @@ function App() {
           <Route path="/:id" element={<Details />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
