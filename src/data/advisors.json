@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Alex Johnson",
     "specialty": [
-      "Retirement Wealth Management",
+      "Retirement Planning",
       "Estate Planning",
       "Investment Strategies"
     ],
@@ -12,12 +12,6 @@
     "availability": "available",
     "experience": "15 years",
     "location": "Toronto",
-    "tags": [
-      "retirement",
-      "investment",
-      "estate planning",
-      "wealth management"
-    ],
     "detailed-overview": "With over 15 years of experience in wealth management, I have worked with a diverse range of clients to create personalized retirement and estate planning strategies. My focus is on helping individuals achieve financial independence and security through comprehensive, tax-efficient investment solutions. I strive to build long-lasting relationships with clients based on trust and understanding their unique financial goals. I am committed to providing expert guidance to ensure financial success for every stage of life."
   },
   {
@@ -26,58 +20,46 @@
     "specialty": [
       "Portfolio Management",
       "Investment Strategies",
-      "Retirement Wealth Management"
+      "Retirement Planning"
     ],
     "languages": ["English", "Spanish", "French"],
     "intro": "I build and manage diverse investment portfolios, focusing on strategies to optimize returns and grow wealth for retirement and beyond.",
     "availability": "not available",
     "experience": "10 years",
     "location": "Mississauga",
-    "tags": ["investment", "retirement", "wealth management"],
     "detailed-overview": "As a seasoned portfolio manager with over 10 years of experience, I specialize in creating custom investment strategies that align with my clients' long-term goals. I work closely with individuals and families to grow their wealth while managing risks, ensuring a secure retirement. My approach to portfolio management emphasizes diversification, performance monitoring, and timely adjustments to align with market trends. I am committed to educating clients about their investments so they can feel confident in their financial future."
   },
   {
     "id": "3",
     "name": "Chen Wei",
-    "specialty": [
-      "Tax-Efficient Wealth Strategies",
-      "Estate Planning",
-      "Investment Strategies"
-    ],
+    "specialty": ["Tax Planning", "Estate Planning", "Investment Strategies"],
     "languages": ["English", "Mandarin"],
     "intro": "I offer tax-efficient strategies to maximize wealth accumulation, help with estate planning, and create personalized investment solutions.",
     "availability": "available",
     "experience": "12 years",
     "location": "Markham",
-    "tags": [
-      "tax strategy",
-      "estate planning",
-      "investment",
-      "wealth management"
-    ],
     "detailed-overview": "I specialize in helping clients optimize their wealth with tax-efficient strategies, while ensuring their estate is planned for future generations. With over 12 years of experience, I focus on understanding my clients' needs and building personalized solutions that consider their financial situation, family goals, and legacy. My expertise lies in navigating complex tax laws and offering solutions that help minimize liabilities. I am dedicated to helping clients build a secure and prosperous future through tailored financial strategies."
   },
   {
     "id": "4",
     "name": "Priya Sharma",
     "specialty": [
-      "Wealth Management",
       "High-Net-Worth Individuals",
-      "Private Equity Investments"
+      "Private Equity Investments",
+      "Wealth Protection"
     ],
     "languages": ["English", "Hindi", "French"],
     "intro": "I work with high-net-worth individuals to design comprehensive wealth management plans, focusing on private equity and advanced investment strategies.",
     "availability": "not available",
     "experience": "8 years",
     "location": "Brampton",
-    "tags": ["wealth management", "high-net-worth", "investment"],
     "detailed-overview": "With a deep understanding of high-net-worth individuals' unique needs, I offer wealth management services that focus on private equity investments and advanced financial planning. Over my 8 years of experience, I have crafted tailored investment strategies to help clients preserve and grow their wealth while minimizing risks. I work closely with clients to optimize their portfolios, diversify their investments, and plan for generational wealth. I am committed to providing comprehensive solutions that align with my clients' financial and personal aspirations."
   },
   {
     "id": "5",
     "name": "Liam O'Connor",
     "specialty": [
-      "Retirement Wealth Management",
+      "Retirement Planning",
       "Investment Strategies",
       "Estate Planning"
     ],
@@ -86,54 +68,32 @@
     "availability": "available",
     "experience": "20 years",
     "location": "Richmond Hill",
-    "tags": [
-      "retirement",
-      "investment",
-      "estate planning",
-      "wealth management"
-    ],
     "detailed-overview": "With over 20 years of experience in wealth management, I specialize in helping individuals and families secure their financial futures. I design strategies that balance investment growth, risk management, and estate planning to protect my clients' wealth and ensure their long-term financial success. My focus is on retirement wealth management, ensuring that my clients have a steady income stream throughout their retirement years. I aim to provide personalized advice that helps clients build and preserve wealth for future generations."
   },
   {
     "id": "6",
     "name": "Aisha Hassan",
-    "specialty": [
-      "Small Business Wealth Management",
-      "Cash Flow Optimization",
-      "Investment Strategies"
-    ],
+    "specialty": ["Business Planning", "Wealth Protection"],
     "languages": ["English", "Arabic", "French"],
-    "intro": "I assist small business owners in managing their wealth, optimizing cash flow, and planning for sustainable long-term growth.",
+    "intro": "I assist small business owners in managing their wealth and planning for sustainable long-term growth.",
     "availability": "not available",
     "experience": "7 years",
     "location": "Vaughan",
-    "tags": [
-      "small business",
-      "investment",
-      "financial planning",
-      "wealth management"
-    ],
-    "detailed-overview": "I specialize in helping small business owners navigate their financial challenges while creating opportunities for long-term growth and wealth preservation. With 7 years of experience, I provide tailored strategies that optimize cash flow, manage business expenses, and ensure that business owners are financially prepared for the future. My focus is on creating custom solutions that align business financial health with personal wealth goals. I am passionate about empowering entrepreneurs to achieve success in both their business and personal finances."
+    "detailed-overview": "I specialize in helping small business owners navigate their financial challenges while creating opportunities for long-term growth and wealth preservation. With 7 years of experience, I provide tailored strategies that manage business expenses and ensure that business owners are financially prepared for the future. My focus is on creating custom solutions that align business financial health with personal wealth goals. I am passionate about empowering entrepreneurs to achieve success in both their business and personal finances."
   },
   {
     "id": "7",
     "name": "Carlos Mendes",
     "specialty": [
       "Debt Management",
-      "Wealth Building Strategies",
-      "Investment Strategies"
+      "Investment Strategies",
+      "Wealth Protection"
     ],
     "languages": ["English", "Portuguese", "ASL"],
     "intro": "I help individuals reduce debt while developing wealth-building strategies through smart investments and financial planning.",
     "availability": "available",
     "experience": "9 years",
-    "location": "Oakville",
-    "tags": [
-      "debt management",
-      "investment",
-      "financial planning",
-      "wealth management"
-    ],
+    "location": "Toronto",
     "detailed-overview": "I work closely with individuals to reduce debt and create personalized wealth-building strategies that ensure long-term financial stability. With 9 years of experience, my approach integrates debt management and investment planning to provide clients with a clear path to financial freedom. I focus on educating clients about their financial options and helping them develop a comprehensive plan that supports their wealth-building goals. My goal is to empower individuals to take control of their finances and achieve financial independence."
   },
   {
@@ -141,37 +101,25 @@
     "name": "Sofia Rossi",
     "specialty": [
       "Investment Strategies",
-      "Retirement Wealth Management",
+      "Retirement Planning",
       "Estate Planning"
     ],
-    "languages": ["English", "Italian", "French"],
+    "languages": ["English", "French"],
     "intro": "I design investment strategies focused on growing wealth for retirement while ensuring a solid estate plan to protect your assets.",
     "availability": "not available",
     "experience": "5 years",
-    "location": "Burlington",
-    "tags": [
-      "investment",
-      "retirement",
-      "estate planning",
-      "wealth management"
-    ],
+    "location": "Mississauga",
     "detailed-overview": "With 5 years of experience, I specialize in creating investment strategies that help clients grow their wealth for retirement while ensuring a secure and well-planned estate. My approach combines smart investment decisions with sound estate planning, protecting clients' assets and ensuring their wealth is transferred efficiently. I work closely with clients to understand their goals and develop strategies that align with their financial needs. My focus is on providing a balanced approach to investment and wealth preservation."
   },
   {
     "id": "9",
     "name": "James Carter",
-    "specialty": ["Insurance Planning", "Wealth Management", "Estate Planning"],
+    "specialty": ["Insurance Planning", "Wealth Protection", "Estate Planning"],
     "languages": ["English", "Spanish"],
     "intro": "I offer insurance planning solutions that complement wealth management and estate planning strategies to protect families and their assets.",
     "availability": "available",
     "experience": "14 years",
-    "location": "Newmarket",
-    "tags": [
-      "wealth management",
-      "estate planning",
-      "insurance",
-      "asset protection"
-    ],
+    "location": "Markham",
     "detailed-overview": "With over 14 years of experience in insurance planning and wealth management, I help families protect their assets and plan for a secure future. I work with clients to integrate insurance solutions with their broader wealth management and estate planning strategies. My goal is to provide a comprehensive approach that addresses both financial security and long-term wealth preservation. I believe in providing clients with peace of mind, knowing that their financial futures are protected."
   },
   {
@@ -179,15 +127,14 @@
     "name": "Naomi Kim",
     "specialty": [
       "Financial Education",
-      "Wealth Management",
-      "Investment Strategies"
+      "Investment Strategies",
+      "Wealth Protection"
     ],
-    "languages": ["English", "Korean", "French"],
+    "languages": ["English", "French"],
     "intro": "I empower individuals through financial education, providing strategies to manage wealth effectively and grow investments for the future.",
     "availability": "not available",
     "experience": "6 years",
-    "location": "Milton",
-    "tags": ["education", "investment", "wealth management"],
+    "location": "Brampton",
     "detailed-overview": "I am dedicated to providing financial education to help individuals make informed decisions about their investments and wealth. With 6 years of experience in wealth management, I focus on empowering clients with the knowledge and tools they need to effectively manage their finances. I believe that educated clients are more confident in their financial decisions, and my goal is to guide them toward making choices that lead to long-term financial success. My services are built around client education and creating a foundation for future wealth growth."
   },
   {
@@ -198,12 +145,11 @@
       "Investment Strategies",
       "Wealth Protection"
     ],
-    "languages": ["English", "Japanese", "ASL"],
+    "languages": ["English", "ASL"],
     "intro": "I help businesses and individuals manage financial risks, focusing on wealth protection through smart investments and risk management strategies.",
     "availability": "available",
     "experience": "18 years",
-    "location": "Ajax",
-    "tags": ["risk management", "investment", "wealth protection"],
+    "location": "Richmond Hill",
     "detailed-overview": "With 18 years of experience in risk management and wealth protection, I help businesses and individuals navigate financial uncertainties. I specialize in identifying potential risks and creating strategies that protect assets while still offering opportunities for growth. My approach combines smart investment strategies with comprehensive risk management plans to ensure clients’ financial security. I am committed to helping my clients make informed decisions and mitigate financial risks while achieving long-term success."
   },
   {
@@ -211,20 +157,14 @@
     "name": "Elena Petrova",
     "specialty": [
       "Investment Strategies",
-      "Wealth Management",
+      "Wealth Protection",
       "Retirement Planning"
     ],
-    "languages": ["English", "Russian"],
+    "languages": ["English", "ASL"],
     "intro": "I create customized investment strategies that build wealth for retirement and provide effective wealth management solutions for individuals.",
     "availability": "not available",
     "experience": "13 years",
-    "location": "Hamilton",
-    "tags": [
-      "investment",
-      "wealth management",
-      "retirement",
-      "financial planning"
-    ],
-    "detailed-overview": "With over 13 years of experience in investment strategies and wealth management, I specialize in helping individuals grow their wealth while planning for a secure retirement. I offer tailored solutions that focus on both short- and long-term financial goals, ensuring clients can meet their retirement needs and build a legacy for future generations. My approach combines market knowledge with personalized strategies to help clients navigate financial markets confidently. I work closely with clients to ensure that their financial goals align with their life’s priorities."
+    "location": "Vaughan",
+    "detailed-overview": "With over 13 years of experience in wealth management, I help individuals and families create personalized investment strategies to build wealth and secure their financial future. I specialize in retirement planning, ensuring clients have a stable income stream during their retirement years. My goal is to help clients achieve financial independence by developing a diversified investment portfolio and managing their wealth efficiently. I believe in taking a comprehensive approach to financial planning that aligns with each client's unique needs and goals."
   }
 ]
