@@ -27,6 +27,7 @@
   background-color: $primary-background-color;
   border-radius: 8px;
   margin-bottom: $padding-increment * 2;
+  flex-grow: 1;
 
   @include tablet {
     flex-direction: column;
@@ -34,38 +35,49 @@
   }
 
   &__image-container {
-    width: 25rem;
-    height: 25rem;
+    width: 300px;
+    height: 300px;
     border-radius: 1rem;
     overflow: hidden;
-
-    @include tablet {
-      width: 20rem;
-      height: 20rem;
-    }
-
-    @include mobile {
-      width: 25rem;
-      height: 25rem;
-    }
   }
 
   &__image {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
   }
 
+  &__name-icon {
+    @include tablet {
+      height: 100%;
+      // width: 100%;
+      flex-grow: 1;
+    }
+  }
+
   &__info {
+    @include flex(row, space-between, center);
     flex-grow: 1;
-    width: 50%;
+    width: 100%;
   }
 
   &__header {
-    @include flex(row, space-between, center);
+    @include flex(column, flex-start, flex-start);
     margin-bottom: $padding-increment;
     flex-wrap: wrap;
     gap: $padding-increment;
+  }
+
+  &__wrapper {
+    @include flex(row, center, center);
+  }
+
+  &__circle {
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 50px;
+    margin-right: $padding-increment;
   }
 
   &__name {
@@ -96,11 +108,15 @@
       height: 24px;
       display: block;
     }
+
+    &__description {
+      margin: $padding-increment;
+    }
   }
 
   &__specialty {
     color: $primary-text-color;
-    margin-bottom: $padding-increment;
+    margin: $padding-increment * 2 0;
   }
 
   &__location {
