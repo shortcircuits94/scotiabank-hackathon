@@ -1,10 +1,26 @@
 import "./AdvisorCard.scss";
 import data from "../../data/advisors.json";
 
-export default function AdvisorCard() {
+export default function AdvisorCard({ filters }) {
+  const filteredAdvisors = data.filter((advisor) => {
+    const matchesSpecialty =
+      !filters.specialty || advisor.specialty.includes(filters.specialty);
+    const matchesLanguage =
+      !filters.language || advisor.languages.includes(filters.language);
+    const matchesLocation =
+      !filters.location || advisor.location === filters.location;
+    const matchesAvailability =
+      !filters.availability || advisor.availability === filters.availability;
+    return (
+      matchesSpecialty &&
+      matchesLanguage &&
+      matchesLocation &&
+      matchesAvailability
+    );
+  });
   return (
     <div className="cards">
-      {data.map((advisor) => (
+      {filteredAdvisors.map((advisor) => (
         <article className="cards__advisor" key={advisor.id}>
           <div className="cards__top">
             <img
@@ -22,7 +38,9 @@ export default function AdvisorCard() {
           <div className="cards__bottom">
             <div className="description__container">
               <h3 className="description__name">{advisor.name}</h3>
-              <p className="description__tags">{advisor.tags.join(", ")}</p>
+              <p className="description__tags">
+                {advisor.specialty.join(", ")}
+              </p>
               <p className="description__location">{advisor.location}</p>
               <div className="container-wrapper">
                 <div className="details-container">
