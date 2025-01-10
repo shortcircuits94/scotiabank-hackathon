@@ -1,21 +1,43 @@
-@use "../../../Styles/Partials/variables" as *;
-@use "../../../Styles/Partials/typography" as *;
-@use "../../../Styles/Partials/mixins" as *;
+@use "../../Styles/Partials/variables" as *;
+@use "../../Styles/Partials/typography" as *;
+@use "../../Styles/Partials/mixins" as *;
 
 p {
   font-size: 14px;
 }
 
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+}
+
 .cards {
+  @include flex(column, center, center);
+
+  @include tablet {
+    @include flex(row, flex-start, center);
+    flex-wrap: wrap;
+    gap: $padding-increment * 3;
+    margin: 0 $padding-increment * 2;
+  }
+
   &__advisor {
     border: solid 2px $border-color;
     border-radius: 10px;
     width: 350px;
+    margin-bottom: $padding-increment;
   }
 
   &__photo {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    height: 350px;
+    border-radius: 8px 8px 0 0;
   }
 
   &__top {
@@ -23,7 +45,7 @@ p {
   }
 
   &__bottom {
-    padding: $padding-increment * 2;
+    padding: $padding-increment $padding-increment * 2;
   }
 }
 
@@ -32,8 +54,8 @@ p {
     @include flex(row, flex-start, center);
     background-color: $primary-background-color;
     width: fit-content;
-    padding: 0 $padding-increment * 2;
-    border-radius: 50px;
+    padding: 4px $padding-increment * 2;
+    border-radius: 10px;
     position: absolute;
     bottom: 15px;
     margin: 0 $padding-increment;
@@ -57,6 +79,10 @@ p {
   &__location {
     color: $secondary-text-color;
     margin-top: $padding-increment;
+  }
+
+  &__name {
+    margin-bottom: $padding-increment;
   }
 }
 

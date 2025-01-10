@@ -1,0 +1,41 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.filter {
+  padding: 0rem 1rem 1rem 1rem;
+  width: 100%;
+  &__title {
+    font-weight: normal;
+  }
+  &__input-container {
+    @include flex(column, flex-start, normal);
+    margin: 1rem auto;
+    width: 100%;
+    @include tablet {
+      @include flex(row, flex-start, normal);
+      gap: 1.5rem;
+      width: 100%;
+      margin: 1rem 0;
+    }
+    @include desktop {
+      width: 70%;
+    }
+  }
+  &__input {
+    margin-bottom: 0.625rem;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background-color: $primary-background-color;
+    width: 100%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid $border-color;
+    padding: 1rem 0.5rem;
+    border-radius: 0.625rem;
+    @include tablet {
+      padding: 0.8rem;
+    }
+  }
+}

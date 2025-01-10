@@ -1,0 +1,122 @@
+@use "../../Styles/Partials/variables" as *;
+
+// Mixins
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+.top-details {
+  @include flex(row, flex-start, flex-start);
+  padding: $padding-increment * 2;
+  gap: $padding-increment * 2;
+  background-color: $primary-background-color;
+  border-radius: 8px;
+  margin-bottom: $padding-increment * 2;
+
+  @include tablet {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__image-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  //
+  &__info {
+    @include flex(row, space-between, center);
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  &__header {
+    @include flex(column, flex-start, flex-start);
+    margin-bottom: $padding-increment;
+    flex-wrap: wrap;
+    gap: $padding-increment;
+  }
+
+  &__wrapper {
+    @include flex(row, center, center);
+  }
+
+  &__circle {
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 50px;
+    margin-right: $padding-increment;
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  &__actions {
+    @include flex(row, flex-end, center);
+    gap: $padding-increment;
+  }
+
+  &__action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: $padding-increment;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: rgba($secondary-background-color, 0.1);
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+
+    &__description {
+      margin: $padding-increment;
+    }
+  }
+
+  &__specialty {
+    color: $primary-text-color;
+    margin: $padding-increment * 2 0;
+  }
+
+  &__location {
+    color: $secondary-text-color;
+    margin-bottom: $padding-increment;
+  }
+
+  &__availability {
+    color: $secondary-text-color;
+    font-style: italic;
+  }
+}
