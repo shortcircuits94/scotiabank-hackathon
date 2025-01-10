@@ -1,3 +1,4 @@
+import "./Home.scss";
 import Filter from "../../components/Filter/Filter";
 import AdvisorCard from "../../components/AdvisorCard/AdvisorCard";
 import { useState } from "react";
@@ -10,7 +11,7 @@ function Home() {
   };
   return (
     <>
-      <div>
+      <div className="home">
         <Filter onFilterChange={handleFilterChange} />
         <AdvisorCard filters={filters} />
       </div>
