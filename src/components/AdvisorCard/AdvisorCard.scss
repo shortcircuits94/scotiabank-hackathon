@@ -18,6 +18,8 @@ p {
 }
 
 .cards {
+  @include flex(column, center, center);
+
   @include tablet {
     @include flex(row, flex-start, center);
     flex-wrap: wrap;
