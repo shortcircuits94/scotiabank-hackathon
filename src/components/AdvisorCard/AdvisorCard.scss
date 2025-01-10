@@ -7,6 +7,13 @@ p {
 }
 
 .cards {
+  @include tablet {
+    @include flex(row, flex-start, center);
+    flex-wrap: wrap;
+    gap: $padding-increment * 3;
+    margin: 0 $padding-increment * 2;
+  }
+
   &__advisor {
     border: solid 2px $border-color;
     border-radius: 10px;
