@@ -2,70 +2,70 @@
 @use "../../Styles/Partials/mixins" as *;
 
 .bottom-details {
+  @include desktop {
+    display: flex;
+  }
+
+  &__parent {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: "Inter";
+    text-wrap: wrap;
+
     @include desktop {
-            display: flex;
-        }
-
-    &__parent {
-        border: 1px solid;
-        border-color: #d3d3d3;;
-        border-radius: 10px;
-        padding: 1rem;
-        margin: 2rem;
-        font-family: "Inter";
-        text-wrap: wrap;
-
-        @include desktop {
-            width: 50%;
-        }
-        
+      width: 50%;
     }
-   
-    &__container {
-        @include desktop {
-            flex-grow: 1;
-        }
+  }
+
+  &__container {
+    @include desktop {
+      flex-grow: 1;
     }
+  }
 
-    &__title {
-        font-size: 20px ;
-        padding: 1rem 0;
+  &__title {
+    font-size: 20px;
+    padding: 1rem 0;
+  }
+
+  &__bookings {
+    border: 1px solid;
+    border-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: wrap;
+
+    @include desktop {
+      @include flex(row, space-between, center);
+      gap: 2rem;
     }
+  }
 
-    &__bookings {
-        border: 1px solid;
-        border-color: #d3d3d3;
-        border-radius: 10px;
-        padding: 1rem;
-        margin: 2rem;
-        font-family: Arial, Helvetica, sans-serif;
-        text-wrap: wrap;
+  &__info {
+    color: #7b7b7b;
+    padding-bottom: 1rem;
+  }
 
-        @include desktop {
-            display: flex;
-            gap: 2rem;
-        }
+  &__container-button {
+    @include desktop {
+      @include flex(row, center, center);
+      width: 35%;
+      height: 70%;
     }
+  }
 
-    &__info {
-        color: #7b7b7b;
-        padding-bottom: 1rem;
-    }
-
-    &__container-button {
-        @include desktop {
-            flex-grow: 1;
-        }
-    }
-
-    &__button {
-        background-color: $button-color;
-        color: white;
-        border: none;
-        width: 100%;
-        padding: 1rem;
-        border-radius: 15px;
-        font-size: 1.5rem;
-
-    }
+  &__button {
+    background-color: $button-color;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1.5rem;
+  }
 }
