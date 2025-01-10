@@ -6,10 +6,16 @@ p {
   font-size: 14px;
 }
 
-.card {
+.cards {
   &__advisor {
     border: solid 2px $border-color;
     border-radius: 10px;
+    width: 350px;
+  }
+
+  &__photo {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
   }
 
   &__top {
@@ -59,4 +65,8 @@ p {
   padding: $padding-increment;
   width: 49%;
   border-radius: 10px;
+
+  &__data {
+    font-size: 12px;
+  }
 }
