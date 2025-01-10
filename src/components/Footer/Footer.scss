@@ -1,0 +1,67 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.footer {
+  padding: 1rem;
+  padding-left: 3rem;
+  &__help {
+    margin-bottom: 5rem;
+    @include tablet {
+      @include flex(row, normal, center);
+    }
+  }
+  &__card {
+    margin-top: 1.25rem;
+    @include tablet {
+      margin-right: 4.375rem;
+    }
+  }
+  &__icon {
+    height: 25px;
+    margin-bottom: 0.625rem;
+  }
+  &__text {
+    padding: 0.5rem 0rem;
+    font-size: 0.9375rem;
+    &--underline {
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-underline-offset: 5px;
+      font-weight: bold;
+    }
+  }
+  &__social-container {
+    @include flex(row, normal, center);
+    margin-top: 0.625rem;
+  }
+  &__social {
+    height: 25px;
+    margin-right: 0.625rem;
+  }
+  &__info {
+    @include flex(row, space-around, center);
+    flex-wrap: wrap;
+    padding-top: 0.625rem;
+    margin: 1.25rem 0;
+    @include tablet {
+      @include flex(row, normal, center);
+    }
+  }
+  &__info-text {
+    font-size: 0.75rem;
+    color: grey;
+    margin: 0.625rem 0.3125rem;
+    @include tablet {
+      margin-right: 0.9375rem;
+      font-size: 0.875rem;
+      margin-bottom: 1.875rem;
+    }
+  }
+  &__copyrite {
+    font-size: 0.8125rem;
+    color: grey;
+    justify-self: center;
+    padding: 0.625rem;
+  }
+}
