@@ -7,11 +7,18 @@ p {
 }
 
 .cards {
+  @include tablet {
+    @include flex(row, flex-start, center);
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 $padding-increment * 2;
+  }
+
   &__advisor {
     border: solid 2px $border-color;
     border-radius: 10px;
     width: 350px;
-    margin-bottom: $padding-increment;
+    // margin-bottom: $padding-increment;
   }
 
   &__photo {

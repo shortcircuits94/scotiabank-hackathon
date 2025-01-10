@@ -24,7 +24,7 @@ export default function AdvisorCard({ filters }) {
         <article className="cards__advisor" key={advisor.id}>
           <div className="cards__top">
             <img
-              src={advisor.photo}
+              src="https://via.placeholder.com/300"
               alt={`${advisor.name}'s Profile Photo`}
               className="cards__photo"
             />
