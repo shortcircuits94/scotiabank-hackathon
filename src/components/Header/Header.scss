@@ -9,6 +9,7 @@
     width: 15rem;
   }
   &__login {
+    font-weight: normal;
     display: none;
     color: black;
     @include tablet {
