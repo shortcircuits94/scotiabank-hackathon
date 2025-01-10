@@ -1,0 +1,19 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.header {
+  background-color: white;
+  padding: 2rem 1rem;
+  @include flex(row, space-between, normal);
+  &__logo {
+    width: 15rem;
+  }
+  &__login {
+    display: none;
+    color: black;
+    @include tablet {
+      display: block;
+    }
+  }
+}
