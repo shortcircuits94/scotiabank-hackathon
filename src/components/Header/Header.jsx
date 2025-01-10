@@ -1,5 +1,5 @@
 import "./Header.scss";
-import logo from "../../assets/logo/Scotiabank_logo.svg.png";
+import logo from "../../assets/logo/Scotiabank_logo.svg";
 
 function Header() {
   return (
