@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Alex Johnson",
-    "photo": "images/alex-johnson.jpg",
+    "photo": "assets/images/alex-johnson.jpg",
     "specialty": [
       "Retirement Wealth Management",
       "Estate Planning",
@@ -24,7 +24,7 @@
   {
     "id": "2",
     "name": "Maria Lopez",
-    "photo": "../../assets/images/maria-lopez.jpg",
+    "photo": "assets/images/maria-lopez.jpg",
     "specialty": [
       "Portfolio Management",
       "Investment Strategies",
