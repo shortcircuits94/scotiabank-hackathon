@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Alex Johnson",
-    "photo": "images/alex-johnson.jpg",
+    "photo": "../../assets/images/alex-johnson.jpg",
     "specialty": [
       "Retirement Wealth Management",
       "Estate Planning",
@@ -124,7 +124,7 @@
   {
     "id": "7",
     "name": "Carlos Mendes",
-    "photo": "../assets/images/carlos-mendes.jpg",
+    "photo": "../../assets/images/carlos-mendez.jpg",
     "specialty": [
       "Debt Management",
       "Wealth Building Strategies",
