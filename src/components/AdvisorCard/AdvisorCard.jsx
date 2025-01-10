@@ -11,6 +11,7 @@ export default function AdvisorCard({ filters }) {
       !filters.location || advisor.location === filters.location;
     const matchesAvailability =
       !filters.availability || advisor.availability === filters.availability;
+
     return (
       matchesSpecialty &&
       matchesLanguage &&

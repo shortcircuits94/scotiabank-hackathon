@@ -77,7 +77,7 @@ function Filter({ onFilterChange }) {
           onChange={handleFilterChange}
         >
           <option value="">Availabilty</option>
-          <option value="available">Available</option>
+          <option value="Available Now">Available</option>
         </select>
       </div>
     </section>
