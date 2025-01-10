@@ -1,5 +1,5 @@
 import "./AdvisorCard.scss";
-import data from "../../../data/advisors.json";
+import data from "../../data/advisors.json";
 
 export default function AdvisorCard() {
   return (
