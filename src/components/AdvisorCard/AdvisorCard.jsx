@@ -36,7 +36,9 @@ export default function AdvisorCard({ filters }) {
           <div className="cards__bottom">
             <div className="description__container">
               <h3 className="description__name">{advisor.name}</h3>
-              <p className="description__tags">{advisor.tags.join(", ")}</p>
+              <p className="description__tags">
+                {advisor.specialty.join(", ")}
+              </p>
               <p className="description__location">{advisor.location}</p>
               <div className="container-wrapper">
                 <div className="details-container">
