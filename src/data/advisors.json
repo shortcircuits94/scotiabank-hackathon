@@ -2,6 +2,7 @@
   {
     "id": "1",
     "name": "Alex Johnson",
+    "photo": "images/alex-johnson.jpg",
     "specialty": [
       "Retirement Wealth Management",
       "Estate Planning",
@@ -9,7 +10,7 @@
     ],
     "languages": ["English", "French", "ASL"],
     "intro": "I specialize in helping clients manage and grow their retirement savings, create effective estate plans, and implement smart investment strategies for long-term wealth.",
-    "availability": "available",
+    "availability": "Available Now",
     "experience": "15 years",
     "location": "Toronto",
     "tags": [
@@ -23,6 +24,7 @@
   {
     "id": "2",
     "name": "Maria Lopez",
+    "photo": "../../assets/images/maria-lopez.jpg",
     "specialty": [
       "Portfolio Management",
       "Investment Strategies",
@@ -30,7 +32,7 @@
     ],
     "languages": ["English", "Spanish", "French"],
     "intro": "I build and manage diverse investment portfolios, focusing on strategies to optimize returns and grow wealth for retirement and beyond.",
-    "availability": "not available",
+    "availability": "Unavailable Now",
     "experience": "10 years",
     "location": "Mississauga",
     "tags": ["investment", "retirement", "wealth management"],
@@ -39,6 +41,7 @@
   {
     "id": "3",
     "name": "Chen Wei",
+    "photo": "../assets/images/chen-wei.jpg",
     "specialty": [
       "Tax-Efficient Wealth Strategies",
       "Estate Planning",
@@ -46,7 +49,7 @@
     ],
     "languages": ["English", "Mandarin"],
     "intro": "I offer tax-efficient strategies to maximize wealth accumulation, help with estate planning, and create personalized investment solutions.",
-    "availability": "available",
+    "availability": "Available Now",
     "experience": "12 years",
     "location": "Markham",
     "tags": [
@@ -60,6 +63,7 @@
   {
     "id": "4",
     "name": "Priya Sharma",
+    "photo": "../assets/images/priya-sharma.jpg",
     "specialty": [
       "Wealth Management",
       "High-Net-Worth Individuals",
@@ -67,7 +71,7 @@
     ],
     "languages": ["English", "Hindi", "French"],
     "intro": "I work with high-net-worth individuals to design comprehensive wealth management plans, focusing on private equity and advanced investment strategies.",
-    "availability": "not available",
+    "availability": "Unavailable Now",
     "experience": "8 years",
     "location": "Brampton",
     "tags": ["wealth management", "high-net-worth", "investment"],
@@ -76,6 +80,7 @@
   {
     "id": "5",
     "name": "Liam O'Connor",
+    "photo": "../assets/images/liam-oconnor.jpg",
     "specialty": [
       "Retirement Wealth Management",
       "Investment Strategies",
@@ -83,7 +88,7 @@
     ],
     "languages": ["English", "French"],
     "intro": "I help clients plan for a secure retirement with wealth management strategies, focusing on investments and estate planning to protect their legacy.",
-    "availability": "available",
+    "availability": "Available Now",
     "experience": "20 years",
     "location": "Richmond Hill",
     "tags": [
@@ -97,6 +102,7 @@
   {
     "id": "6",
     "name": "Aisha Hassan",
+    "photo": "../assets/images/aisha-hassan.jpg",
     "specialty": [
       "Small Business Wealth Management",
       "Cash Flow Optimization",
@@ -104,7 +110,7 @@
     ],
     "languages": ["English", "Arabic", "French"],
     "intro": "I assist small business owners in managing their wealth, optimizing cash flow, and planning for sustainable long-term growth.",
-    "availability": "not available",
+    "availability": "Unavailable Now",
     "experience": "7 years",
     "location": "Vaughan",
     "tags": [
@@ -118,6 +124,7 @@
   {
     "id": "7",
     "name": "Carlos Mendes",
+    "photo": "../assets/images/carlos-mendes.jpg",
     "specialty": [
       "Debt Management",
       "Wealth Building Strategies",
@@ -125,7 +132,7 @@
     ],
     "languages": ["English", "Portuguese", "ASL"],
     "intro": "I help individuals reduce debt while developing wealth-building strategies through smart investments and financial planning.",
-    "availability": "available",
+    "availability": "Available Now",
     "experience": "9 years",
     "location": "Oakville",
     "tags": [
@@ -139,6 +146,7 @@
   {
     "id": "8",
     "name": "Sofia Rossi",
+    "photo": "../assets/images/sofia-rossi.jpg",
     "specialty": [
       "Investment Strategies",
       "Retirement Wealth Management",
@@ -146,7 +154,7 @@
     ],
     "languages": ["English", "Italian", "French"],
     "intro": "I design investment strategies focused on growing wealth for retirement while ensuring a solid estate plan to protect your assets.",
-    "availability": "not available",
+    "availability": "Unavailable Now",
     "experience": "5 years",
     "location": "Burlington",
     "tags": [
@@ -160,10 +168,11 @@
   {
     "id": "9",
     "name": "James Carter",
+    "photo": "../assets/images/james-carter.jpg",
     "specialty": ["Insurance Planning", "Wealth Management", "Estate Planning"],
     "languages": ["English", "Spanish"],
     "intro": "I offer insurance planning solutions that complement wealth management and estate planning strategies to protect families and their assets.",
-    "availability": "available",
+    "availability": "Available Now",
     "experience": "14 years",
     "location": "Newmarket",
     "tags": [
@@ -177,6 +186,7 @@
   {
     "id": "10",
     "name": "Naomi Kim",
+    "photo": "../assets/images/naomi-kim.jpg",
     "specialty": [
       "Financial Education",
       "Wealth Management",
@@ -184,7 +194,7 @@
     ],
     "languages": ["English", "Korean", "French"],
     "intro": "I empower individuals through financial education, providing strategies to manage wealth effectively and grow investments for the future.",
-    "availability": "not available",
+    "availability": "Unavailable Now",
     "experience": "6 years",
     "location": "Milton",
     "tags": ["education", "investment", "wealth management"],
@@ -193,6 +203,7 @@
   {
     "id": "11",
     "name": "George Tanaka",
+    "photo": "../assets/images/george-tanaka.jpg",
     "specialty": [
       "Risk Management",
       "Investment Strategies",
@@ -200,7 +211,7 @@
     ],
     "languages": ["English", "Japanese", "ASL"],
     "intro": "I help businesses and individuals manage financial risks, focusing on wealth protection through smart investments and risk management strategies.",
-    "availability": "available",
+    "availability": "Available Now",
     "experience": "18 years",
     "location": "Ajax",
     "tags": ["risk management", "investment", "wealth protection"],
@@ -209,6 +220,7 @@
   {
     "id": "12",
     "name": "Elena Petrova",
+    "photo": "../assets/images/elena-petrova.jpg",
     "specialty": [
       "Investment Strategies",
       "Wealth Management",
@@ -216,7 +228,7 @@
     ],
     "languages": ["English", "Russian"],
     "intro": "I create customized investment strategies that build wealth for retirement and provide effective wealth management solutions for individuals.",
-    "availability": "not available",
+    "availability": "Unavailable Now",
     "experience": "13 years",
     "location": "Hamilton",
     "tags": [

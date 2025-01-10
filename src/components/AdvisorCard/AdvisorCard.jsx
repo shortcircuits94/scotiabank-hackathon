@@ -8,14 +8,16 @@ export default function AdvisorCard() {
         <article className="cards__advisor" key={advisor.id}>
           <div className="cards__top">
             <img
-              src="https://via.placeholder.com/350"
+              src={advisor.photo}
               alt={`${advisor.name}'s Profile Photo`}
               className="cards__photo"
             />
-            <div className="available__container">
-              <div className="available__circle"></div>
-              <p className="available__text">Available Now</p>
-            </div>
+            {advisor.availability !== "Unavailable Now" && (
+              <div className="available__container">
+                <div className="available__circle"></div>
+                <p className="available__text">{advisor.availability}</p>
+              </div>
+            )}
           </div>
           <div className="cards__bottom">
             <div className="description__container">
