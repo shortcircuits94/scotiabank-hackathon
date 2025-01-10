@@ -27,7 +27,6 @@
   background-color: $primary-background-color;
   border-radius: 8px;
   margin-bottom: $padding-increment * 2;
-  flex-grow: 1;
 
   @include tablet {
     flex-direction: column;
@@ -46,15 +45,7 @@
     height: 300px;
     object-fit: cover;
   }
-
-  &__name-icon {
-    @include tablet {
-      height: 100%;
-      // width: 100%;
-      flex-grow: 1;
-    }
-  }
-
+  //
   &__info {
     @include flex(row, space-between, center);
     flex-grow: 1;
