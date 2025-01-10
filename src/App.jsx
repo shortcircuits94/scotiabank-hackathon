@@ -5,7 +5,7 @@ import Details from "./pages/Details/Details.jsx";
 import Header from "./components/Header/Header.jsx";
 
 import "./App.scss";
-import AdvisorCard from "./pages/components/AdvisorCard/AdvisorCard.jsx";
+import AdvisorCard from "./components/AdvisorCard/AdvisorCard.jsx";
 
 function App() {
   return (
