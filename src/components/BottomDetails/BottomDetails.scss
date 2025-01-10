@@ -2,8 +2,14 @@
 @use "../../Styles/Partials/mixins" as *;
 
 .bottom-details {
+    
+    @include tablet {
+        width: 60%;
+    }
+
     @include desktop {
             display: flex;
+            width: 100%;
         }
 
     &__parent {
