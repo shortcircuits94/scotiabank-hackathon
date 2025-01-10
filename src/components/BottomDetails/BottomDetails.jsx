@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import data from "../data/advisors.json";
+import data from "../../data/advisors.json";
 import "./BottomDetails.scss";
 
 
