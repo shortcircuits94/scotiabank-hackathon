@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import BottomDetails from "../../BottomDetails/BottomDetails.jsx"
+import "./Details.scss";
 
 
 function Details () {
