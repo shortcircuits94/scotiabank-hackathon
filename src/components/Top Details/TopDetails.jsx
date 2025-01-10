@@ -13,12 +13,13 @@ export default function TopDetails() {
   return (
     <div className="top-details">
       <div className="top-details__image-container">
-        <img 
-          src={`/assets/images/${advisor.photo.split('/').pop()}`}
-          alt={`${advisor.name}`} 
+        <p className="top-details__availability">{advisor.availability}</p>
+        <img
+          src={`/assets/images/${advisor.photo.split("/").pop()}`}
+          alt={`${advisor.name}`}
           className="top-details__image"
         />
-      </div>    
+      </div>
       <div className="top-details__info">
         <div className="top-details__header">
           <h2 className="top-details__name">{advisor.name}</h2>
@@ -34,9 +35,9 @@ export default function TopDetails() {
             </button>
           </div>
         </div>
+        <p className=""></p>
         <p className="top-details__specialty">{advisor.specialty.join(", ")}</p>
         <p className="top-details__location">{advisor.location}</p>
-        <p className="top-details__availability">{advisor.availability}</p>
       </div>
     </div>
   );
