@@ -6,16 +6,17 @@ import Details from "./pages/Details/Details.jsx";
 import "./App.scss";
 
 function App() {
-  return 
-  <>
-    <BrowserRouter>
-        <Header/>
+  return (
+    <>
+      <BrowserRouter>
+        {/* <Header /> */}
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route path="/" element={<Home />} />
           <Route path="/:id" element={<Details />} />
         </Routes>
       </BrowserRouter>
-  </>;
+    </>
+  );
 }
 
 export default App;
